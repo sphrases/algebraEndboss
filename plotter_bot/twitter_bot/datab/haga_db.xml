@@ -1,0 +1,8 @@
+<data>
+    <items>
+        <item tweets="tweet1">"test"</item>
+        <item tweets="tweet2"></item>
+        <item tweets="tweet3"></item>
+        <item tweets="tweet4"></item>
+    </items>
+</data>

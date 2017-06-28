@@ -1,0 +1,5 @@
+#!/bin/bash
+FUNC=$1
+
+
+gnuplot -e "f(x)="$FUNC";set output '../plotted/$FUNC.png';a = \"$FUNC\"" ./drawPlotGNU.gnu

@@ -1,2 +1,3 @@
 # algebraEndboss
 AlgebraEndboss, discontinued
+THIS IS HIGHLY CRAPPY CODE, DOESNT EVEN WORK ATM...

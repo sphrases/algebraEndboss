@@ -1,0 +1,17 @@
+#!/bin/bash
+
+TWEETID=$1
+TWEETTEXT
+FUNCTION="x**2"
+SEARCHTERM="#function="
+
+IFS='=' read -ra ADDR <<< "$TWEETTEXT"
+for i in "${ADDR[@]}"; do
+    # process "$i"
+done
+
+if echo "$LIST" | grep -q "$SOURCE"; then
+    echo "matched";
+else
+    echo "no match";
+fi
