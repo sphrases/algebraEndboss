@@ -82,7 +82,7 @@ def printTweets():
 		print "<li> tweet:  	"	+ tweetText		+ "</li> </ul>" + '\n\n\n'
 		print "________________________________________________________________________________"
 	return;
-
+ 
 	
 	
 	
@@ -101,7 +101,6 @@ def answerTweet():
 	
 	
 #Main
-
 for tweet in tweets:
 	try:
 		fetchTweets();
@@ -112,6 +111,8 @@ for tweet in tweets:
 		inc += 1;
 	except:
 		pass
+		
+		
 		
 sys.stdout = orig_stdout
 f.close()
